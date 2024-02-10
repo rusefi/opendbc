@@ -687,7 +687,7 @@ BO_ 1344 Getriebe_2: 8 XXX
 BO_ 1088 Getriebe_1: 8 XXX
  SG_ Wandlerverlustmoment : 56|8@1+ (0.39,0) [0|99.06] "MDI" XXX
  SG_ Fehlerspeichereintrag__Getriebe : 55|1@1+ (1,0) [0|0] "" XXX
- SG_ COUNTER : 51|4@1+ (1,0) [0|15] "" XXX
+ SG_ Zaehler_Getriebe_1 : 51|4@1+ (1,0) [0|15] "" XXX
  SG_ Gang_eingelegt : 50|1@1+ (1,0) [0|0] "" XXX
  SG_ Schaltabsicht : 49|1@1+ (1,0) [0|0] "" XXX
  SG_ Motor_aus : 48|1@1+ (1,0) [0|0] "" XXX
@@ -1487,6 +1487,14 @@ CM_ SG_ 640 Fahrpedalwert_oder_Drosselklapp "Accelerator Pedal or Throttle Posit
 CM_ SG_ 640 Motordrehzahl "Engine Speed";
 CM_ SG_ 640 Momentenangaben_ungenau "Approximate Torque Values";
 CM_ SG_ 640 inneres_Motor_Moment_ohne_exter "Inner torque without external";
+CM_ SG_ 640 Fehlerstatus_Getriebe_Momentene "Error Status in Gearbox Torque"
+CM_ SG_ 640 Fehlerstatus_Brems_Momenteneing "Error Status in Braking Torque"
+CM_ SG_ 640 Time_Out_Bremsen_Botschaft "Timeout Braking Message";
+CM_ SG_ 640 Kupplungsschalter "Clutch Switch";
+CM_ SG_ 640 Kickdownschalter "Kickdown Switch";
+CM_ SG_ 640 Leergasinformation "No gas status";
+
+CM_ SG_ 900 Momentenangaben_ungenau__Moment "Approximated Torque";
 
 CM_ SG_ 644 MOB_CHECKSUM "Checksum MOB";
 CM_ SG_ 644 MOB_COUNTER "Counter MOB";
@@ -1496,6 +1504,8 @@ CM_ SG_ 648 Begrenzungsmoment "Maximum Inner Torque";
 CM_ SG_ 648 Bremstestschalter "Brake Test Switch";
 CM_ SG_ 648 Soll_Geschwindigkeit_bei_GRA_Be "Desired Vehicle Speed";
 CM_ SG_ 648 Bremslichtschalter "Brake Light Switch";
+CM_ SG_ 648 Status_Normalbetrieb "Status Normal operation";
+CM_ SG_ 648 Fehlerstatus_Kuhlmitteltempera "Coolant temperature Error";
 CM_ SG_ 648 Leerlaufsolldrehzahl__Motor_2_ "Target Idle Speed";
 CM_ SG_ 648 Fahrzeuggeschwindigkeit "Vehicle Speed";
 CM_ SG_ 648 Kuehlmitteltemperatur__Motor_2_ "Coolant Temperature";
@@ -1515,9 +1525,11 @@ CM_ SG_ 912 BSK_HR_geoeffnet "Status of the rear right door rotary latch";
 CM_ SG_ 912 BSK_BT_geoeffnet "Status of the passenger door rotary latch";
 CM_ SG_ 912 BSK_HD_Hauptraste "Status of trunk lid main detent";
 
+CM_ SG_ 1088 Fehlerspeichereintrag__Getriebe "Gearbox Error in Memory";
 CM_ SG_ 1088 Zaehler_Getriebe_1 "Counter Getriebe_1";
 CM_ SG_ 1088 Waehlhebelposition__Getriebe_1_ "Gear Selector Position";
 CM_ SG_ 1088 inneres_Soll_Motormoment "Desired Inner Torque";
+CM_ SG_ 1088 OBD_Status__Getriebe_1___4_1_ "Gearbox OBD Status";
 CM_ SG_ 1088 Gang_eingelegt "Gear Engaged";
 CM_ SG_ 1088 Schaltabsicht "Shift Intent";
 CM_ SG_ 1088 Kuehlleistung "Cooling Power";
@@ -1526,6 +1538,10 @@ CM_ SG_ 1088 Getriebe_Notlauf "Transmission_Notlauf";
 CM_ SG_ 1088 Zielgang_oder_eingelegter_Gang "target_gear_or_gear_in_engagement";
 CM_ SG_ 1088 Uebertragungsfunktion "transfer function";
 CM_ SG_ 1088 EGS_Anforderung "EGS Requirement";
+CM_ SG_ 1088 Leerlaufsolldrehzahlanhebung "Idle Speed Increase";
+CM_ SG_ 1088 Wandlerkupplung "Converter Clutch";
+CM_ SG_ 1088 Klimakompressor_aus__Getriebe_1 "A/C Condition from Gearbox";
+CM_ SG_ 1088 Status_Getriebe_und_Wandlerschu "Protection Status";
 CM_ SG_ 1088 Schaltung_aktiv__Getriebe_1_ "Shift Activity";
 
 CM_ SG_ 1056 Fehlerstatus_Aussentemp__4_1 "ambient temp error";
