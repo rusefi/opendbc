@@ -64,7 +64,18 @@ BO_ 574 ENGINE_4: 8 XXX
  SG_ EstimatedTorque : 24|16@1+ (0.1,0) [0|45000] "nM" XXX
  SG_ Throttle_position : 48|8@1+ (0.392,0) [0|255] "%" XXX
 
-BO_ 595 TCU_1: 8 XXX
+BO_ 593 TCU_1: 8 XXX
+ SG_ tcu_1_1 : 0|8@1+ (1,0) [0|255] "%" XXX
+ SG_ tcu_1_2 : 0|8@1+ (1,0) [0|255] "%" XXX
+ SG_ tcu_1_3 : 0|8@1+ (1,0) [0|255] "%" XXX
+ SG_ tcu_1_4 : 0|8@1+ (1,0) [0|255] "%" XXX
+
+
+BO_ 595 TCU_2: 8 XXX
+ SG_ tcu_2_1 : 0|8@1+ (1,0) [0|255] "%" XXX
+ SG_ tcu_2_2 : 0|8@1+ (1,0) [0|255] "%" XXX
+ SG_ tcu_2_3 : 0|8@1+ (1,0) [0|255] "%" XXX
+ SG_ tcu_2_4 : 0|8@1+ (1,0) [0|255] "%" XXX
  SG_ SHAFT_1_SPEED : 32|16@1+ (1,0) [0|45000] "r/min" XXX
  SG_ SHAFT_2_SPEED : 48|16@1+ (1,0) [0|45000] "r/min" XXX
 
