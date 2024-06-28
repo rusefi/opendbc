@@ -40,32 +40,32 @@ BO_ 2 STEERING: 5 XXX
  SG_ STEERING_ANGLE : 0|16@1+ (0.1,0) [0|65535] "deg" XXX
  SG_ POWER_STEER_RATE : 23|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 505 ENGINE_1: 8 XXX
+BO_ 505 ENGINE_1_505: 8 XXX
  SG_ RPM_505 : 24|16@0+ (0.125,0) [0|45000] "R/min" XXX
  SG_ FAN_REQ : 6|2@1+ (1,0) [0|3] "" XXX
  SG_ AC_REQ : 3|1@1+ (1,0) [0|1] "" XXX
 
-BO_ 561 ENGINE_2: 8 XXX
+BO_ 561 ENGINE_2_561: 8 XXX
  SG_ Pedal_position_561 : 16|8@1+ (0.5,0) [0|200] "%" XXX
 
-BO_ 563 ENGINE_7: 8 XXX
+BO_ 563 ENGINE_7_563: 8 XXX
  SG_ CLT_563 : 0|8@1+ (0.366666,0) [0|255] "C" XXX
  SG_ RPMlow : 32|8@1+ (3.15,0) [0|45000] "R/min" XXX
  SG_ RPMhi : 56|8@1+ (3.15,0) [0|45000] "R/min" XXX
 
-BO_ 573 ENGINE_3: 8 XXX
+BO_ 573 ENGINE_3_573: 8 XXX
  SG_ Pedal_position_573 : 8|8@1+ (0.392,0) [0|255] "%" XXX
  SG_ Throttle_position_capped : 16|8@1+ (0.392,0) [0|255] "%" XXX
  SG_ RPM_573 : 24|16@1+ (3.15,0) [0|45000] "R/min" XXX
  SG_ CLT_573 : 56|8@1+ (0.366666,0) [0|255] "C" XXX
 
-BO_ 574 ENGINE_4: 8 XXX
+BO_ 574 ENGINE_4_574: 8 XXX
  SG_ ECU_23e_0 : 0|8@1+ (1,0) [0|255] "%" XXX
  SG_ Throttle_position_inverted : 16|8@1+ (0.392,0) [0|255] "%" XXX
  SG_ EstimatedTorque : 24|16@1+ (0.1,0) [0|45000] "nM" XXX
  SG_ Throttle_position : 48|8@1+ (0.392,0) [0|255] "%" XXX
 
-BO_ 593 TCU_251: 8 XXX
+BO_ 593 TCU_251_593: 8 XXX
  SG_ tcu_251_0_3 : 0|3@1+ (1,0) [0|255] "%" XXX
  SG_ tcu_251_0 : 0|8@1+ (1,0) [0|255] "%" XXX
  SG_ tcu_251_1 : 8|8@1+ (1,0) [0|255] "%" XXX
@@ -87,7 +87,7 @@ BO_ 593 TCU_251: 8 XXX
  SG_ tcu_251_7 : 56|8@1+ (1,0) [0|255] "%" XXX
 
 
-BO_ 595 TCU_253: 8 XXX
+BO_ 595 TCU_253_595: 8 XXX
  SG_ tcu_253_0 : 0|8@1+ (1,0) [0|255] "%" XXX
  SG_ tcu_253_2bit_counter : 0|2@1+ (1,0) [0|255] "%" XXX
  SG_ tcu_253_0_2_3 : 2|3@1+ (1,0) [0|255] "%" XXX
